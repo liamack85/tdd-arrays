@@ -198,7 +198,7 @@ describe("findSong", function () {
 });
 
 // findSpy
-describe("findSpy", function () {
+describe.only("findSpy", function () {
   it("returns [0,1] for [[X,spy], [X,X]]", function () {
     expect(
       findSpy([
